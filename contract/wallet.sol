@@ -18,7 +18,7 @@ contract Wallet{
          require(
             msg.sender == owner,"You are not allowed to access this section."
             );
-            _;
+            
     }
     event transactionStatus(address sender,bool transationLimitCrossed,bool transactionSuccessful);
     
